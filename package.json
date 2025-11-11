@@ -1,16 +1,22 @@
 {
-  "name": "express",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@types/express": "^5.0.0",
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
-    "@types/node": "^22.0.0"
-  }
+    "name": "express-js-on-vercel",
+    "version": "1.0.0",
+    "main": "api/index.js",
+    "scripts": {
+        "start": "node api/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/anumhosen/express-js-on-vercel.git"
+    },
+    "author": "anumhosen",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/anumhosen/express-js-on-vercel/issues"
+    },
+    "homepage": "https://github.com/anumhosen/express-js-on-vercel#readme",
+    "description": "",
+    "dependencies": {
+        "express": "^5.1.0"
+    }
 }
